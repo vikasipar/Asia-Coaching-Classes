@@ -1,0 +1,290 @@
+body{
+    margin: 0;
+    border: none;
+}
+
+h1{
+    margin-top: 20px;
+    padding: 10px 2%;
+}
+
+nav{
+    display: flex;
+    padding: 2px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav span{
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: 600;
+    color: #03287f;
+}
+
+span #logo{
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+nav .div1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    width: 20%;
+    font-size: 1.4vw;
+}
+
+nav ul li:hover{
+    font-weight: bold;
+    color: #0157c8;
+}
+
+.btn-div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    padding: 0.6vw 1.2vw;
+    border-radius: 5px;
+    font-size: 1.4vw;
+    transition: 0.4s;
+    background: #903dfd;
+    color: #fff;
+    border: transparent;
+}
+
+#btn:hover{
+    padding: 0.6vw 1.6vw;
+}
+
+/* main-section */
+main{
+    padding: 10px 2%;
+}
+
+main img{
+    border-radius: 1px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* courses-section */
+.courses{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.course{
+    width: 40%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 9px #8c98b4;
+    border-radius: 10px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.course:hover{
+    box-shadow: 5px 5px 12px #8b99bb;
+}
+
+.course img{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.course-details{
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+.course-details h2{
+    color: #3f1ff1;
+}
+
+.course-details p{
+    color: #433983;
+}
+
+/* about-section */
+.about-section{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+#name{
+    color: #3700ff;
+}
+
+.about-section div{
+    width: 50%;
+}
+
+#square1{
+    z-index: -1;
+    margin-top: -1.7vw;
+    right: 65px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #4495ff, #3f1ff1);
+}
+
+.about-section img{
+    width: 90%;
+    margin: auto;
+    z-index: 10;
+    border-radius: 3px;
+}
+
+.about-details{
+    margin: auto 20px; 
+}
+
+.about-details h1{
+    font-size: 3vw;
+    color: #3f1ff1;
+}
+
+.about-details p{
+    width: 90%;
+    text-align: justify;
+    color: #433983;
+    font-size: 1.4vw;
+}
+
+/* founder-section */
+.founder-section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 90px auto;
+}
+
+.founder-section div{
+    width: 50%;
+    margin: auto;
+}
+
+.img-container{
+    display: flex;
+}
+
+.founder-section img{
+    width: 60%;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.founder-details{
+    margin: auto 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.founder-details h1{
+    font-size: 3vw;
+    color: #3f1ff1;
+}
+
+.founder-details p{
+    width: 80%;
+    text-align: justify;
+    color: #433983;
+    font-size: 1.4vw;
+}
+
+#square2{
+    z-index: -1;
+    margin-top: 24vw;
+    margin-left: 7vw;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #4495ff, #3f1ff1);
+}
+
+/* footer-section */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #484f5f;
+    color: #fff;
+    margin: 0;
+    padding: 2%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content div{
+    width: 25%;
+    margin: auto;
+}
+
+.footer-section span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #cecbcb;
+}
+
+.footer-section #logo{
+    color: #ffffff;
+}
+
+.info p{
+    text-align: justify;
+}
+
+#copyright{
+    margin-top: 7vw;
+}
+
+table{
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.footer-content{
+    text-align: left;
+}
+
+table td{
+    padding: 10px;
+    padding-left: 0;
+}
