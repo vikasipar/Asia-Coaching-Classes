@@ -1,6 +1,7 @@
 body{
     margin: 0;
     border: none;
+    font-family: "Poppins", sans-serif;
 }
 
 h1{
@@ -8,84 +9,103 @@ h1{
     padding: 10px 2%;
 }
 
+#heading{
+    display: flex;
+    align-items: center;
+}
+
+#heading img{
+    width: 30px;
+    margin-left: 8px;
+}
+
 nav{
     display: flex;
-    padding: 2px 25px;
+    padding: 4px 30px;
     justify-content: space-between;
     align-items: center;
 }
 
 nav span{
+    width: 12%;
     text-align: center;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     font-weight: 600;
     color: #03287f;
+    line-height: 22px;
 }
 
 span #logo{
-    font-size: 2.5vw;
-    font-weight: bolder;
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 nav .div1{
-    width: 50%;
+    width: 88%;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
 }
 
 nav ul{
-    width: 60%;
+    width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 
 nav ul li{
     list-style: none;
-    width: 20%;
-    font-size: 1.4vw;
+    width: 10%;
+    font-size: 1.2vw;
 }
 
-nav ul li:hover{
+#btn a{
+    color: #fff;
+}
+
+nav a{
+    color: #474747;
+}
+
+ul a:hover{
     font-weight: bold;
     color: #0157c8;
 }
 
 .btn-div{
-    width: 30%;
+    width: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
 }
 
 #btn{
-    padding: 0.6vw 1.2vw;
+    padding: 0.6vw 1.1vw;
     border-radius: 5px;
     font-size: 1.4vw;
     transition: 0.4s;
     background: #903dfd;
     color: #fff;
     border: transparent;
+    cursor: pointer;
 }
 
 #btn:hover{
-    padding: 0.6vw 1.6vw;
+    background: #a763ff;
+    font-weight: normal;
 }
 
 /* main-section */
-main{
-    padding: 10px 2%;
-}
-
 main img{
     border-radius: 1px;
-    margin: 0 auto;
+    width: 94%;
+    margin: 0 3%;
     border-radius: 5px;
 }
 
 /* courses-section */
 .courses{
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
     margin-bottom: 60px;
     display: flex;
@@ -95,8 +115,9 @@ main img{
 }
 
 .course{
-    width: 40%;
-    margin-top: 30px;
+    width: 30%;
+    margin-top: 20px;
+    padding: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,8 +133,10 @@ main img{
 }
 
 .course img{
-    width: 40%;
+    width: 41%;
+    height: 100%;
     margin: 0 auto;
+    border-radius: 12px 0 0 12px;
 }
 
 .course-details{
@@ -125,10 +148,12 @@ main img{
 
 .course-details h2{
     color: #3f1ff1;
+    font-size: 1.6vw;
 }
 
 .course-details p{
-    color: #433983;
+    color: #474747;
+    font-size: 1vw;
 }
 
 /* about-section */
@@ -139,6 +164,7 @@ main img{
     align-items: center;
     margin: 30px auto;
     padding: 0 20px;
+    margin-top: 0;
 }
 
 #name{
@@ -151,11 +177,12 @@ main img{
 
 #square1{
     z-index: -1;
-    margin-top: -1.7vw;
-    right: 65px;
+    margin-top: -1.9vw;
+    right: 60px;
     position: absolute;
     height: 200px;
     width: 200px;
+    border-radius: 3px;
     background: linear-gradient(to right, #4495ff, #3f1ff1);
 }
 
@@ -173,13 +200,15 @@ main img{
 .about-details h1{
     font-size: 3vw;
     color: #3f1ff1;
+    line-height: 50px;
 }
 
 .about-details p{
     width: 90%;
     text-align: justify;
-    color: #433983;
-    font-size: 1.4vw;
+    color: #474747;
+    font-size: 1.2vw;
+    font-weight: 500;
 }
 
 /* founder-section */
@@ -219,8 +248,9 @@ main img{
 .founder-details p{
     width: 80%;
     text-align: justify;
-    color: #433983;
-    font-size: 1.4vw;
+    color: #474747;
+    font-size: 1.2vw;
+    font-weight: 500;
 }
 
 #square2{
@@ -230,6 +260,7 @@ main img{
     position: absolute;
     height: 200px;
     width: 200px;
+    border-radius: 3px;
     background: linear-gradient(to right, #4495ff, #3f1ff1);
 }
 
@@ -237,12 +268,16 @@ main img{
 .footer-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
     background: #484f5f;
     color: #fff;
     margin: 0;
     padding: 2%;
+    border-radius: 3px 3px 0 0;
+}
+
+.footer-section p{
+    font-size: 1.1vw;
 }
 
 .footer-content{
@@ -251,8 +286,9 @@ main img{
 }
 
 .footer-content div{
-    width: 25%;
+    width: 30%;
     margin: auto;
+    margin-top: 0;
 }
 
 .footer-section span{
@@ -264,6 +300,7 @@ main img{
 
 .footer-section #logo{
     color: #ffffff;
+    line-height: 25px;
 }
 
 .info p{
@@ -285,6 +322,26 @@ table{
 }
 
 table td{
-    padding: 10px;
+    padding: 1px;
     padding-left: 0;
+}
+
+td img{
+    width: 2.3vw;
+    padding-top: 3px;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+
+.footer-content a{
+    color: #fff;
+}
+
+#address{
+    text-transform: capitalize;
 }

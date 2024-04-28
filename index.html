@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./static/books.png">
     <title>Asia Coaching Classes</title>
 </head>
 <body>
 
-    <nav>
-        <span><el id="logo">Asia</el><br> Coaching Classes</span>
+    <nav id="home">
+        <span><el id="logo">Asia</el><br>Coaching Classes</span>
 
         <div class="div1">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Courses</li>
-                <li>Gallery</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <!-- <li><a href="courses">Gallery</a></li> -->
             </ul>
             <div class="btn-div">
-                <button id="btn">Contact us</button>
+                <button id="btn"><a href="#contact">Contact us</a></button>
             </div>
         </div>
     </nav>
@@ -28,66 +32,99 @@
         <img src="https://vmkt.vedantu.com/vmkt/PROD/png/37cd5104-e8b6-4425-842b-e166ca95c42c-1713874571928-4001376723323670.png" alt="">
     </main>
     
-    <h1>About us</h1>
+    <h1 id="heading">About us <img src="./static/right.png" alt=""></h1>
     <div class="about-section">
         <div>
             <div id="square1"></div>
             <img src="./static/classroom.jpg" alt="">
         </div>
-        <div class="about-details">
+        <div class="about-details" id="about">
             <h1>Get Success with <br><span id="name">Asia Coaching Classes</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aut laudantium ducimus, natus commodi culpa fugiat illo veritatis architecto facilis ullam saepe voluptate rerum. Iusto quis est numquam, magni ullam nobis sequi in possimus molestiae reprehenderit at natus asperiores soluta doloribus ut hic, odio qui recusandae sunt dolor error pariatur?</p>   
+            <p>Welcome to Asia Coaching Classes, your premier tuition center in Mhow, Indore. Our mission is simple: to empower students through innovative teaching methods and personalized attention. By blending top-tier educators with cutting-edge technology, we strive to cultivate a love for learning and ensure academic success.<br><br>
+                At Asia Coaching, we aspire to be the leading educational brand in Mhow-Indore, renowned for our commitment to excellence and fostering a culture of trust. With a focus on quality education and exceeding expectations, we have earned a reputation as the go-to choice in Mhow, Indore (M.P.).</p>   
         </div>
     </div>
 
     <div class="founder-section">
         <div class="founder-details">
-            <h1>Founder's Words</h1>
-            <p>Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum enim pariatur dolorum dolorem numquam beatae officia excepturi maiores nisi rerum, modi, praesentium voluptates veniam iste! Iure, optio, dolore consequuntur culpa commodi voluptate, iste nisi totam illo ex inventore asperiores explicabo amet soluta provident dicta pariatur nihil accusamus velit ut aut? sit amet, consectetur adipisicing elit. Obcaecati quae necessitatibus nemo aut ab vel fugit dicta dolore molestiae quod corporis vitae nam, accusamus ut consequatur aliquid natus modi nisi. Culpa natus tempore ex obcaecati eligendi eius unde a! Nemo inventore temporibus dolorum? Possimus nam, perspiciatis doloremque reiciendis libero commodi.</p>
+            <h1>Founder's Message</h1>
+            <p>I'm Sanjay Kumar Kushvaha, an educator with a passion for Mathematics and Physics. With over 19 years of experience, I've had the privilege of guiding countless students on their academic journey. My background in M.Sc. Mathematics and B.Ed. has equipped me with the knowledge and skills to effectively teach and inspire young minds.<br><br>
+
+                At our coaching center, we are committed to nurturing a bright future for our students. Our dedicated team shares my enthusiasm for transforming the coaching sector and empowering students to reach their full potential. Together, we strive to create an environment where learning is engaging, enjoyable, and rewarding.<br><br>
+                
+                Join us on this journey towards academic excellence and success. Together, let's unlock the boundless potential within each student and pave the way for a brighter tomorrow.</p>
         </div>
         <div class="img-container">
-            <img src="./static/img3.jpg" alt="">
+            <img src="./static/founder.jpg" alt="">
             <div id="square2"></div>
         </div>
     </div>
 
     <!-- courses-section -->
     <div class="course-section">
-        <h1>Popular Courses</h1>
-        <div class="courses">
+        <h1 id="heading">Popular Courses<img src="./static/right.png" alt=""></h1>
+        <div class="courses" id="courses">
             <div class="course">
-                <img src="./static/physics.jpg" alt="">
+                <img src="./static/iit.jpg" alt="">
                 <div class="course-details">
                     <h2>IIT-JEE</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem, veritatis maiores vitae labore non.</p>
+                    <p>Join our result-oriented IIT-JEE program.</p>
                 </div>
             </div>
             <div class="course">
                 <img src="./static/biology.jpg" alt="">
                 <div class="course-details">
                     <h2>NEET</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem, veritatis maiores vitae labore non.</p>
+                    <p>Fuel your medical dream with NEET program.</p>
                 </div>
             </div>
             <div class="course">
                 <img src="./static/chemistry.jpg" alt="">
                 <div class="course-details">
                     <h2>11 & 12 - Science</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem, veritatis maiores vitae labore non.</p>
+                    <p>Physics, Chemistry, Mathematics, Biology.</p>
+                </div>
+            </div>
+            <div class="course">
+                <img src="./static/business.jpg" alt="">
+                <div class="course-details">
+                    <h2>11 & 12 - Commerce</h2>
+                    <p>Accountancy, Business, Economics.</p>
                 </div>
             </div>
             <div class="course">
                 <img src="./static/economics.jpg" alt="">
                 <div class="course-details">
                     <h2>VI to X - All Subjects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem, veritatis maiores vitae labore non.</p>
+                    <p>Craft your unique path to success in VI to X batches.</p>
                 </div>
             </div>
             <div class="course">
-                <img src="./static/business.jpg" alt="">
+                <img src="./static/olympiad.jpg" alt="">
                 <div class="course-details">
-                    <h2>NSET</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem, veritatis maiores vitae labore non.</p>
+                    <h2>NTSE & Olympiad</h2>
+                    <p>Ask questions, engage in discussions.</p>
+                </div>
+            </div>
+            <div class="course">
+                <img src="./static/engg.jpeg" alt="">
+                <div class="course-details">
+                    <h2>Engineering Mathematics</h2>
+                    <p>Gain confidence in problem solving.</p>
+                </div>
+            </div>
+            <div class="course">
+                <img src="./static/msc.jpg" alt="">
+                <div class="course-details">
+                    <h2>BSC & MSC - Mathematics</h2>
+                    <p>Get clarity and conquer challenges.</p>
+                </div>
+            </div>
+            <div class="course">
+                <img src="./static/bca.jpg" alt="">
+                <div class="course-details">
+                    <h2>BCA & MCA</h2>
+                    <p>Gain real-world insights from industry experts.</p>
                 </div>
             </div>
         </div>
@@ -95,29 +132,29 @@
 
     <div class="footer-section">
         <div class="footer-content">
-            <div class="info">
+            <div class="info" id="contact">
                 <span><el id="logo">Asia</el>Coaching Classes</span>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit eaque exercitationem, fuga nostrum qui voluptatum voluptatem velit aliquid aut nulla.</p>
+                <p>We empower students for academic success through personalized learning and a focus on building strong foundations.</p>
             </div>
             <div>
-                <h3>Contact us</h3>
+                <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact us</h3>
                 <table> 
                     <tr>
-                        <td>Mobile</td>
-                        <td>1234567890</td>
+                        <td><img src="./static/phone.png" alt=""></td>
+                        <td><a href="tel:8871786481">&nbsp; 8871786481, &nbsp; 9981586481</a></td>
                     </tr>
                     <tr>
-                        <td>Email</td>
-                        <td>xyz@gmail.com</td>
+                        <td><img src="./static/envelope.png" alt=""></td>
+                        <td><a href="mailto:asiacoachingclasses@gmail.com?subject=Inquiry%20for%20Admission">&nbsp; asiacoachingclasses@gmail.com</a></td>
                     </tr>
                 </table>
             </div>
             <div>
                 <h3>Address</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, odit.</p>
+                <p id="address">Bhaiya ji road, near pakiza collection,<br> behind red cross hospital, Mhow, District - Indore, <br> madhya pradesh - 453441</p>
             </div>
         </div>
-        <p id="copyright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, necessitatibus.</p>
+        <p id="copyright">Copyright © 2024 Asia Coaching Classes - All Rights Reserved.</p>
     </div>
 </body>
 </html>
