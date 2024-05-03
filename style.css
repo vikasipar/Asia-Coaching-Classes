@@ -399,6 +399,9 @@ a{
 
 
 @media screen and (max-width: 760px) {
+    body{
+        overflow-x: hidden;
+    }
     /* navbar */
     nav{
         padding: 3px 5px;
@@ -441,8 +444,9 @@ a{
 
     /* main-section */
     main img{
-        width: 75%;
+        width: 80%;
         margin: auto;
+        border-radius: 0;
     }
 
     #mobile-banner{
@@ -492,10 +496,10 @@ a{
     }
 
     #square1{
-        width: 70px;
-        height: 70px;
-        right: 9.8vw;
-        margin-top: -33vw;
+        width: 40px;
+        height: 40px;
+        right: 10.8vw;
+        margin-top: -39vw;
     }
 
     #br{
@@ -531,13 +535,14 @@ a{
         width: 50%;
         margin: auto;
         overflow: hidden;
+        border-radius: 3px;
     }
 
     #square2{
-        width: 70px;
-        height: 70px;
-        margin-top: -3vw;
-        margin-left: 19vw;
+        width: 40px;
+        height: 40px;
+        margin-top: -2vw;
+        margin-left: 22vw;
     }
 
     .founder-details{
@@ -567,11 +572,16 @@ a{
     .course{
         width: 45%;
         margin-top: 10px;
+        border-radius: 2px;
         box-shadow: 1px 1px 3px #bec8df;
     }
 
     .course:hover{
         box-shadow: 2px 2px 7px #a9b1c2;
+    }
+
+    .course img{
+        border-radius: 3px 0 0 3px;
     }
 
     .course-details{
