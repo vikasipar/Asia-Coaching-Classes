@@ -6,7 +6,8 @@ body{
 
 h1{
     margin-top: 20px;
-    padding: 10px 2%;
+    padding: 2px 4%;
+    /* padding: 10px 2%; */
 }
 
 #heading{
@@ -21,17 +22,17 @@ h1{
 
 nav{
     display: flex;
-    padding: 4px 30px;
+    padding: 4px 60px;
     justify-content: space-between;
     align-items: center;
 }
 
 nav span{
-    width: 12%;
+    width: 14%;
     text-align: center;
     font-size: 1.2vw;
     font-weight: 600;
-    color: #03287f;
+    color: #110235;
     line-height: 22px;
 }
 
@@ -71,7 +72,7 @@ nav a{
 
 ul a:hover{
     font-weight: bold;
-    color: #0157c8;
+    color: #4292fa;
 }
 
 .btn-div{
@@ -85,28 +86,36 @@ ul a:hover{
     border-radius: 5px;
     font-size: 1.4vw;
     transition: 0.9s;
-    background: linear-gradient(to right, #4495ff, #3f1ff1);
+    background: linear-gradient(to right, #79a6eb, #4183e6);
     color: #fff;
     border: transparent;
     cursor: pointer;
 }
 
 #btn:hover{
-    background: linear-gradient(to right, #3f1ff1, #0c60ce);
+    background: linear-gradient(to right, #4183e6, #0c60ce);
     font-weight: normal;
 }
 
 /* main-section */
 main img{
     border-radius: 1px;
-    width: 94%;
-    margin: 0 3%;
+    width: 90%;
+    margin: 10px 5%;
     border-radius: 5px;
+}
+
+#mobile-banner{
+    display: none;
+}
+
+#web-banner{
+    display: block;
 }
 
 /* courses-section */
 .courses{
-    width: 96%;
+    width: 87%;
     margin: 0 auto;
     margin-bottom: 60px;
     display: flex;
@@ -148,7 +157,7 @@ main img{
 }
 
 .course-details h2{
-    color: #3f1ff1;
+    color: #4183e6;
     font-size: 1.6vw;
 }
 
@@ -169,7 +178,7 @@ main img{
 }
 
 #name{
-    color: #3700ff;
+    color: #4183e6;
 }
 
 .about-section div{
@@ -184,7 +193,7 @@ main img{
     height: 100px;
     width: 100px;
     border-radius: 3px;
-    background: linear-gradient(to right, #4495ff, #3f1ff1);
+    background: linear-gradient(to right, #79a6eb, #4183e6);
 }
 
 .about-section img{
@@ -192,6 +201,7 @@ main img{
     margin: auto;
     z-index: 10;
     border-radius: 3px;
+    aspect-ratio: 3/1.8;
 }
 
 .about-details{
@@ -200,7 +210,7 @@ main img{
 
 .about-details h1{
     font-size: 3vw;
-    color: #3f1ff1;
+    color: #4183e6;
     line-height: 50px;
 }
 
@@ -248,7 +258,7 @@ main img{
 
 .founder-details h1{
     font-size: 3vw;
-    color: #3f1ff1;
+    color: #4183e6;
 }
 
 .founder-details p{
@@ -267,7 +277,34 @@ main img{
     height: 100px;
     width: 100px;
     border-radius: 3px;
-    background: linear-gradient(to right, #4495ff, #3f1ff1);
+    background: linear-gradient(to left, #79a6eb, #4183e6);
+}
+
+/* gallery-section */
+.gallery-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    row-gap: 2px;
+    column-gap: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.gallery-section img{
+    width: 260px;
+    aspect-ratio: 3/2;
+    border-radius: 3px;
+    transition: 0.7s;
+    border: 7px solid white;
+}
+
+.gallery-section img:hover{
+    scale: 1.5;
+    backdrop-filter: blur(10px);
+    border: 7px solid white;
+    border-radius: 2px;
 }
 
 /* footer-section */
@@ -403,6 +440,19 @@ a{
     }
 
     /* main-section */
+    main img{
+        width: 75%;
+        margin: auto;
+    }
+
+    #mobile-banner{
+        display: block;
+    }
+    
+    #web-banner{
+        display: none;
+    }
+    
     #heading{
         font-size: 4vw;
         margin-left: 5vw;
@@ -535,6 +585,22 @@ a{
     
     .course-details p{
         font-size: 1.7vw;
+    }
+
+    /* gallery-section */
+    .gallery-section{
+        width: 95%;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+    .gallery-section img{
+        width: 150px;
+        /* aspect-ratio: 3/2; */
+    }
+
+    .gallery-section img:hover{
+        scale:1;
     }
 
     /* footer-section */
