@@ -651,7 +651,6 @@ a{
 
     .gallery-section img{
         width: 150px;
-        /* aspect-ratio: 3/2; */
     }
 
     .gallery-section img:hover{
@@ -661,6 +660,10 @@ a{
     /* toppers-section */
     #topper-poster{
         margin-bottom: 20px;
+    }
+
+    #topper-poster img{
+        border-radius: 3px;
     }
     
     .toppers-section{
