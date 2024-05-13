@@ -331,6 +331,26 @@ main img{
     column-gap: 2px;
     margin: 0 auto;
     margin-bottom: 40px;
+    text-align: center;
+}
+
+.toppers-section div{
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.toppers-section div h3, h4{
+    line-height: normal;
+    margin: 0;
+    font-weight: 500;
+}
+
+.toppers-section div h3{
+    color: #17142b;
+}
+
+.toppers-section div h4{
+    color: #4183e6;
 }
 
 .toppers-section img{
@@ -339,6 +359,7 @@ main img{
     border-radius: 9px;
     transition: 0.7s;
     border: 7px solid white;
+    margin: 0;
 }
 
 /* footer-section */
@@ -674,6 +695,18 @@ a{
 
     .toppers-section img{
         width: 150px;
+    }
+
+    .toppers-section div{
+        margin-bottom: 2px;
+    }
+
+    .toppers-section div h3{
+        font-size: 3.1vw;
+    }
+
+    .toppers-section div h4{
+        font-size: 2.5vw;
     }
 
     /* footer-section */
